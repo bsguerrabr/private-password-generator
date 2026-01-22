@@ -11,27 +11,13 @@ A privacy-focused password generator. Passwords are generated locally in your br
 
 ## Run Locally
 
-```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment (Windows)
-venv\Scripts\activate
-
-# Activate virtual environment (macOS/Linux)
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the server
-python app.py
-```
-
-The site will be available at `http://127.0.0.1:5000`
+Simply open `index.html` in your browser. No server or build process required.
 
 ## Tech Stack
 
-- **Backend**: Flask (Python) - serves the static HTML page
-- **Frontend**: Vanilla JavaScript - handles password generation
+- **HTML/CSS/JavaScript**: Pure static site, no dependencies
 - **Security**: Web Crypto API for cryptographic randomness
+
+## Hosting
+
+Hosted on Cloudflare Pages.
