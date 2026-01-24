@@ -1,4 +1,4 @@
-# Private Password Generator
+# Password Generator
 
 A privacy-focused password generator. Passwords are generated locally in your browser using the Web Crypto API and are never stored or sent to any server.
 
